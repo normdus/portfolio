@@ -7,7 +7,7 @@
 */
 return "
 <nav>
-	<a href='index.php?page=skills'>My skills and background</a>
-	<a href='index.php?page=projects'>Some projects</a>
+	<a href='index.php?page=skills'>Resume</a>
+	<a href='index.php?page=projects'>Projects</a>
 </nav>
 ";

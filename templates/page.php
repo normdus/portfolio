@@ -8,9 +8,17 @@
 return "<!DOCTYPE html>
 <html>
 	<head>
-		<title>$pageData->title</title>	
+		<title>$pageData->title</title>
+		$pageData->css	
+		$pageData->embeddedStyle
 	</head>
+	<header>
+	</header>
 	<body>
-		$pageData->content
+		<div id='wrapper'>
+			$pageData->content
+		</div>	
 	</body>
-</html>";
+	<footer>
+	</footer>
+</html>"; 
